@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18609" started-at="2022-07-11T20:31:17 IST" finished-at="2022-07-11T20:31:35 IST">
+    <groups>
+    </groups>
+    <test name="Test_Chrome " duration-ms="12487" started-at="2022-07-11T20:31:17 IST" finished-at="2022-07-11T20:31:29 IST">
+      <class name="Com.LoginTest.Test_001">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:Com.LoginTest.Test_001@e720b71]" name="Setup" is-config="true" duration-ms="5810" started-at="2022-07-11T20:31:17 IST" finished-at="2022-07-11T20:31:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="verifyLoginpage()[pri:0, instance:Com.LoginTest.Test_001@e720b71]" name="verifyLoginpage" duration-ms="2442" started-at="2022-07-11T20:31:22 IST" finished-at="2022-07-11T20:31:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginpage -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:Com.LoginTest.Test_001@e720b71]" name="TearDown" is-config="true" duration-ms="4188" started-at="2022-07-11T20:31:25 IST" finished-at="2022-07-11T20:31:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Com.LoginTest.Test_001 -->
+    </test> <!-- Test_Chrome  -->
+    <test name="Test_Edge " duration-ms="6102" started-at="2022-07-11T20:31:29 IST" finished-at="2022-07-11T20:31:35 IST">
+      <class name="Com.LoginTest.Test_001">
+        <test-method status="PASS" signature="StartSetup()[pri:0, instance:Com.LoginTest.Test_001@7e0e6aa2]" name="StartSetup" is-config="true" duration-ms="980" started-at="2022-07-11T20:31:16 IST" finished-at="2022-07-11T20:31:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartSetup -->
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:Com.LoginTest.Test_001@7e0e6aa2]" name="Setup" is-config="true" duration-ms="3631" started-at="2022-07-11T20:31:29 IST" finished-at="2022-07-11T20:31:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="verifyLoginpage()[pri:0, instance:Com.LoginTest.Test_001@7e0e6aa2]" name="verifyLoginpage" duration-ms="2359" started-at="2022-07-11T20:31:33 IST" finished-at="2022-07-11T20:31:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginpage -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:Com.LoginTest.Test_001@7e0e6aa2]" name="TearDown" is-config="true" duration-ms="110" started-at="2022-07-11T20:31:35 IST" finished-at="2022-07-11T20:31:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Com.LoginTest.Test_001 -->
+    </test> <!-- Test_Edge  -->
+  </suite> <!-- Suite -->
+</testng-results>
